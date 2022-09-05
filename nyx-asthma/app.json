@@ -195,6 +195,22 @@
 				"target": "last(entry)",
 				"set_pairs": [
 					{
+						"name": "meds",
+						"value": "meds+1"
+					}
+				],
+				"filter_pairs": [],
+				"label": "Give pill"
+			}
+		},
+		{
+			"type": "action",
+			"scope": "root",
+			"settings": {
+				"target_preset": "last",
+				"target": "last(entry)",
+				"set_pairs": [
+					{
 						"name": "end_time",
 						"value": "time($now)"
 					}
@@ -211,7 +227,10 @@
 			"settings": {
 				"type": "line",
 				"orientation": "horizontal",
-				"aggregate_of": "intensity"
+				"aggregate_of": "entry",
+				"aggregate": "count",
+				"group_by": "month",
+				"smooth": true
 			}
 		}
 	]
