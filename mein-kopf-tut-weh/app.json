@@ -160,6 +160,16 @@
 				"max": 5
 			},
 			"name": "intensity"
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"settings": {
+				"type": "options",
+				"allow_multiple": "yes",
+				"options": "Left, Right, Both"
+			},
+			"name": "side"
 		}
 	],
 	"root": [
