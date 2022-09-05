@@ -33,7 +33,8 @@
 			
 		<a id=entries></a>
 			<div class="field-row">
-				<button data-type="action" data-show="edit" mv-action="add(entry)">➕ Add entry</button>
+				<span data-type="expression" data-prefix="Time since last migraine " mv-value="duration($now - last(date_time))"></span>
+				<button data-type="action" mv-action="add(entry)">Migraine +1</button>
 			</div>
 		<section mv-list="entry">
 			<article mv-list-item class="entry">
