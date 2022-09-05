@@ -74,6 +74,7 @@
 			<div class="field-row">
 				<span data-type="expression" data-prefix="Time since last migraine " mv-value="duration($now - last(end_date_time))"></span>
 				<button data-type="action" mv-action="add(entry)">Migraine +1</button>
+				<button data-type="action" mv-action="set(last(entry), end_time: time($now))">End current migraine</button>
 			</div>
 		<section mv-list="entry">
 			<article mv-list-item class="entry">
