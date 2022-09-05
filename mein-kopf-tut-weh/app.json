@@ -193,5 +193,24 @@
 			}
 		}
 	],
-	"charts": []
+	"charts": [
+		{
+			"type": "chart",
+			"scope": "charts",
+			"settings": {
+				"aggregate_of": "intensity",
+				"aggregate": "average",
+				"type": "bar"
+			}
+		},
+		{
+			"type": "chart",
+			"scope": "charts",
+			"settings": {
+				"aggregate_of": "entry",
+				"group_by": "side",
+				"type": "pie"
+			}
+		}
+	]
 }
