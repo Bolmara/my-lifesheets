@@ -84,7 +84,7 @@
 			"type": "property",
 			"scope": "entry",
 			"settings": {
-				"prefix": "Cigarettes smoked ",
+				"prefix": "",
 				"default": "1",
 				"number_style": "bar",
 				"bar_style": "discrete",
