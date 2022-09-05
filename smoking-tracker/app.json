@@ -104,6 +104,37 @@
 	],
 	"root": [
 		{
+			"type": "expression",
+			"scope": "root",
+			"settings": {
+				"prefix": "Tracking since ",
+				"expression": "duration($now - first(date_time))"
+			}
+		},
+		{
+			"type": "spacer",
+			"scope": "root",
+			"settings": {
+				"appearance": "line"
+			}
+		},
+		{
+			"type": "action",
+			"scope": "root",
+			"settings": {
+				"target_preset": "new",
+				"target": "add(entry)",
+				"set_pairs": [
+					{
+						"name": "cigs",
+						"value": "2"
+					}
+				],
+				"filter_pairs": [],
+				"label": "Smoked 2 Cigs"
+			}
+		},
+		{
 			"type": "action",
 			"scope": "root",
 			"settings": {
