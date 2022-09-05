@@ -166,7 +166,7 @@
 			"scope": "entry",
 			"settings": {
 				"type": "options",
-				"allow_multiple": "yes",
+				"allow_multiple": "",
 				"options": "Left, Right, Both"
 			},
 			"name": "side"
