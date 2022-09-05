@@ -25,12 +25,51 @@
 			<span class="app-name">Mein Kopf Tut Weh</span>
 		</h1>
 		<h2>Migraine tracker</h2>
-		<div class="mv-bar mv-ui"></div>
+		<div class="mv-bar mv-ui"><a href="#entries" class="mv-button custom entries">Entries</a></div>
 	</header>
 
 	<main class="charts-first">
 		<a id=stats></a>
-			
+			<div class="chart-row">
+				<figure data-type="chart" class="chart appearance-stretch type-bar" style="min-width: min(300px, 100vw)">
+	
+	<h-chart type="bar" x="b">
+		<table>
+			<thead>
+				<tr>
+					<th hc-name="a">Month</th>
+					<th hc-name="b">Average intensity</th>
+				</tr>
+			</thead>
+			<tbody mv-list="chart16" mv-value="groupBy(entry.intensity, readable_datetime(entry.date, 'month'))">
+				<tr mv-list-item mv-group>
+					<td>[$value]</td>
+					<td>[average($items)]</td>
+				</tr>
+			</tbody>
+		</table>
+	</h-chart>
+	<figcaption>Average intensity per month</figcaption></figure>
+				<figure data-type="chart" class="chart appearance-stretch type-pie" style="min-width: min(300px, 100vw)">
+	
+	<h-chart type="pie" x="b">
+		<table>
+			<thead>
+				<tr>
+					<th hc-name="a">Side</th>
+					<th hc-name="b">Number of entries</th>
+				</tr>
+			</thead>
+			<tbody mv-list="chart17" mv-value="sort(groupBy(entry.entry, entry.side), '$value')">
+				<tr mv-list-item mv-group>
+					<td>[$value]</td>
+					<td>[count($items)]</td>
+				</tr>
+			</tbody>
+		</table>
+	</h-chart>
+	<figcaption>Number of entries per side value</figcaption></figure>
+			</div>
 		<a id=entries></a>
 			<div class="field-row">
 				<span data-type="expression" data-prefix="Time since last migraine " mv-value="duration($now - last(end_date_time))"></span>
