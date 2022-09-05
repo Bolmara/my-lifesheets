@@ -191,6 +191,22 @@
 				"filter_pairs": [],
 				"label": "Migraine +1"
 			}
+		},
+		{
+			"type": "action",
+			"scope": "root",
+			"settings": {
+				"target_preset": "last",
+				"target": "last(entry)",
+				"set_pairs": [
+					{
+						"name": "end_time",
+						"value": "time($now)"
+					}
+				],
+				"filter_pairs": [],
+				"label": "End current migraine"
+			}
 		}
 	],
 	"charts": [
