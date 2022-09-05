@@ -122,7 +122,10 @@
 			"type": "chart",
 			"scope": "charts",
 			"settings": {
-				"type": "bar"
+				"type": "bar",
+				"aggregate_of": "cigs",
+				"group_by": "day",
+				"aggregate": "sum"
 			}
 		}
 	]
