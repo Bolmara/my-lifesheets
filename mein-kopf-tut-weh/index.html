@@ -73,7 +73,11 @@
 		<a id=entries></a>
 			<div class="field-row">
 				<span data-type="expression" data-prefix="Time since last migraine " mv-value="duration($now - last(end_date_time))"></span>
+			</div>
+			<span data-type="spacer" class="appearance-line"></span>
+			<div class="field-row">
 				<button data-type="action" mv-action="add(entry)">Migraine +1</button>
+				<span data-type="spacer" class="appearance-stretch"></span>
 				<button data-type="action" mv-action="set(last(entry), end_time: time($now))">End current migraine</button>
 			</div>
 		<section mv-list="entry">
@@ -93,6 +97,7 @@
 				<div class="field-row">
 					<meter-discrete property="intensity" data-type="property" mv-default="5" min="1" max="5" step="1" mv-edit-as="meter" icon="⛈" class="type-number bar"></meter-discrete>
 					<span property="side" data-type="property" mv-options="Left, Right, Both" class="type-options"></span>
+					<span data-type="spacer" class="appearance-stretch"></span>
 				</div>
 			</article>
 		</section>
