@@ -170,6 +170,11 @@
 				"options": "Left, Right, Both"
 			},
 			"name": "side"
+		},
+		{
+			"type": "spacer",
+			"scope": "entry",
+			"settings": {}
 		}
 	],
 	"root": [
@@ -182,6 +187,13 @@
 			}
 		},
 		{
+			"type": "spacer",
+			"scope": "root",
+			"settings": {
+				"appearance": "line"
+			}
+		},
+		{
 			"type": "action",
 			"scope": "root",
 			"settings": {
@@ -191,6 +203,11 @@
 				"filter_pairs": [],
 				"label": "Migraine +1"
 			}
+		},
+		{
+			"type": "spacer",
+			"scope": "root",
+			"settings": {}
 		},
 		{
 			"type": "action",
