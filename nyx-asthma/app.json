@@ -2,15 +2,15 @@
 	"app": {
 		"name": "Nyx Asthma",
 		"slug": "nyx-asthma",
-		"entry_name": "cough",
-		"description": "cough tracker",
+		"entry_name": "fit",
+		"description": "fit tracker",
 		"private": false,
 		"icon": "🌙",
 		"color": "#2d3334",
 		"storageType": "",
 		"storage": "",
 		"charts_placement": "",
-		"entries_name": "coughs"
+		"entries_name": "fits"
 	},
 	"temporal": {
 		"times": "yes",
@@ -178,7 +178,7 @@
 			"scope": "root",
 			"settings": {
 				"visible": "edit",
-				"label": "➕ Add cough",
+				"label": "➕ Add fit",
 				"target": "add(entry)",
 				"target_preset": "new",
 				"appearance": "",
