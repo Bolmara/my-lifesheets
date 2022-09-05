@@ -167,7 +167,7 @@
 				"prefix": "Pill ",
 				"suffix": "",
 				"default": "1",
-				"options": "1:half, 2:whole, 3: 3 halves",
+				"options": "0:none, 1:half, 2:whole, 3: 3 halves",
 				"appearance": ""
 			},
 			"name": "meds"
