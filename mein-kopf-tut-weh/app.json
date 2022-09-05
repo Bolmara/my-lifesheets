@@ -178,7 +178,7 @@
 			"scope": "root",
 			"settings": {
 				"prefix": "Time since last migraine ",
-				"expression": "duration($now - last(date_time))"
+				"expression": "duration($now - last(end_date_time))"
 			}
 		},
 		{
