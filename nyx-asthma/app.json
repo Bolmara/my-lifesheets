@@ -165,9 +165,10 @@
 			"settings": {
 				"type": "options",
 				"prefix": "Pill ",
-				"suffix": " half ",
+				"suffix": "",
 				"default": "1",
-				"options": "1, 2, 3"
+				"options": "1:half, 2:whole, 3: 3 halves",
+				"appearance": ""
 			},
 			"name": "meds"
 		}
