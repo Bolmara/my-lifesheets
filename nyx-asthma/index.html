@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<title>Nyx Asthma: cough tracker</title>
+	<title>Nyx Asthma: fit tracker</title>
 	<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text style="font-size: 80px" x="50%" y=".85em" dominant-baseline="middle" text-anchor="middle">🌙</text></svg>'>
 	<link rel="stylesheet" href="https://get.mavo.io/mavo.css">
 	<link rel="stylesheet" href="../style.css">
@@ -24,7 +24,7 @@
 			<span class="app-icon">🌙</span>
 			<span class="app-name">Nyx Asthma</span>
 		</h1>
-		<h2>cough tracker</h2>
+		<h2>fit tracker</h2>
 		<div class="mv-bar mv-ui"><a href="#entries" class="mv-button custom entries">Entries</a></div>
 	</header>
 
@@ -37,7 +37,7 @@
 			<thead>
 				<tr>
 					<th hc-name="a">Month</th>
-					<th hc-name="b">Number of coughs</th>
+					<th hc-name="b">Number of fits</th>
 				</tr>
 			</thead>
 			<tbody mv-list="chart19" mv-value="groupBy(entry.entry, readable_datetime(entry.date, 'month'))">
@@ -47,11 +47,11 @@
 				</tr>
 			</tbody>
 		</table>
-	<figcaption>Number of coughs per month</figcaption></figure>
+	<figcaption>Number of fits per month</figcaption></figure>
 			</div>
 		<a id=entries></a>
 			<div class="field-row">
-				<button data-type="action" data-show="edit" mv-action="add(entry)">➕ Add cough</button>
+				<button data-type="action" data-show="edit" mv-action="add(entry)">➕ Add fit</button>
 				<button data-type="action" mv-action="set(last(entry), end_time: time($now))">End coughing fit</button>
 			</div>
 		<section mv-list="entry">
