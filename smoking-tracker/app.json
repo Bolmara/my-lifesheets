@@ -138,7 +138,7 @@
 			"type": "action",
 			"scope": "root",
 			"settings": {
-				"visible": "edit",
+				"visible": "true",
 				"label": "➕ Add smoke break",
 				"target": "add(entry)",
 				"target_preset": "new",
