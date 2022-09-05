@@ -37,19 +37,19 @@
 		<table>
 			<thead>
 				<tr>
-					<th hc-name="a">Month</th>
-					<th hc-name="b">Number of smoke breaks</th>
+					<th hc-name="a">Day</th>
+					<th hc-name="b">Sum of cigs</th>
 				</tr>
 			</thead>
-			<tbody mv-list="chart10" mv-value="groupBy(entry.entry, readable_datetime(entry.date, 'month'))">
+			<tbody mv-list="chart9" mv-value="groupBy(entry.cigs, readable_datetime(entry.date, 'day'))">
 				<tr mv-list-item mv-group>
 					<td>[$value]</td>
-					<td>[count($items)]</td>
+					<td>[sum($items)]</td>
 				</tr>
 			</tbody>
 		</table>
 	</h-chart>
-	<figcaption>Number of smoke breaks per month</figcaption></figure>
+	<figcaption>Sum of cigs per day</figcaption></figure>
 			</div>
 		<a id=entries></a>
 			<div class="field-row">
