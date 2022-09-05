@@ -33,7 +33,7 @@
 			
 		<a id=entries></a>
 			<div class="field-row">
-				<span data-type="expression" data-prefix="Time since last migraine " mv-value="duration($now - last(date_time))"></span>
+				<span data-type="expression" data-prefix="Time since last migraine " mv-value="duration($now - last(end_date_time))"></span>
 				<button data-type="action" mv-action="add(entry)">Migraine +1</button>
 			</div>
 		<section mv-list="entry">
