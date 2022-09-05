@@ -174,16 +174,22 @@
 	],
 	"root": [
 		{
+			"type": "expression",
+			"scope": "root",
+			"settings": {
+				"prefix": "Time since last migraine ",
+				"expression": "duration($now - last(date_time))"
+			}
+		},
+		{
 			"type": "action",
 			"scope": "root",
 			"settings": {
-				"visible": "edit",
-				"label": "➕ Add entry",
-				"target": "add(entry)",
 				"target_preset": "new",
-				"appearance": "",
+				"target": "add(entry)",
 				"set_pairs": [],
-				"filter_pairs": []
+				"filter_pairs": [],
+				"label": "Migraine +1"
 			}
 		}
 	],
