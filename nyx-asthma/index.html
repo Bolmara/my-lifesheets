@@ -31,17 +31,17 @@
 	<main class="charts-first">
 		<a id=stats></a>
 			<div class="chart-row">
-				<figure data-type="chart" class="chart appearance-stretch type-bar" style="min-width: min(300px, 100vw)">
+				<figure data-type="chart" class="chart appearance-stretch type-line" style="min-width: min(300px, 100vw)">
 	
-	<h-chart type="bar" x="b">
+	<h-chart type="line">
 		<table>
 			<thead>
 				<tr>
 					<th hc-name="a">Month</th>
-					<th hc-name="b">Number of fits</th>
+					<th hc-name="b">Number of intensity values</th>
 				</tr>
 			</thead>
-			<tbody mv-list="chart19" mv-value="groupBy(entry.entry, readable_datetime(entry.date, 'month'))">
+			<tbody mv-list="chart15" mv-value="groupBy(entry.intensity, readable_datetime(entry.date, 'month'))">
 				<tr mv-list-item mv-group>
 					<td>[$value]</td>
 					<td>[count($items)]</td>
@@ -49,7 +49,7 @@
 			</tbody>
 		</table>
 	</h-chart>
-	<figcaption>Number of fits per month</figcaption></figure>
+	<figcaption>Number of intensity values per month</figcaption></figure>
 			</div>
 		<a id=entries></a>
 			<div class="field-row">
