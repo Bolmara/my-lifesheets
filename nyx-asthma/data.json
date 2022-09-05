@@ -5,7 +5,7 @@
 			"time": "16:00",
 			"end_time": "20:00",
 			"end_date": "2022-08-03",
-			"intensity": 5,
+			"intensity": 4,
 			"meds": "1"
 		},
 		{
@@ -13,7 +13,7 @@
 			"time": "16:00",
 			"end_time": "17:00",
 			"end_date": "2022-09-01",
-			"intensity": 5,
+			"intensity": 9,
 			"meds": "2"
 		},
 		{
@@ -21,7 +21,7 @@
 			"time": "18:00",
 			"end_time": "05:01",
 			"end_date": "2022-07-07",
-			"intensity": 5,
+			"intensity": 4,
 			"meds": "1"
 		},
 		{
@@ -29,7 +29,7 @@
 			"date": "2022-09-05",
 			"time": "07:00",
 			"end_date": "2022-09-05",
-			"intensity": 5,
+			"intensity": 2,
 			"meds": "1"
 		}
 	]
