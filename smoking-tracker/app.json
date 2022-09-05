@@ -91,6 +91,15 @@
 				"max": 10
 			},
 			"name": "cigs"
+		},
+		{
+			"type": "expression",
+			"scope": "entry",
+			"settings": {
+				"prefix": "Cigs = ",
+				"expression": "cigs"
+			},
+			"name": "cig_num"
 		}
 	],
 	"root": [
