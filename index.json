@@ -1,0 +1,15 @@
+{
+	"smoking-tracker": {
+		"name": "Smoking Tracker",
+		"slug": "smoking-tracker",
+		"entry_name": "smoke break",
+		"description": "smoke break tracker",
+		"private": false,
+		"icon": "🚬",
+		"color": "#947a57",
+		"storageType": "",
+		"storage": "",
+		"charts_placement": "",
+		"entries_name": "smoke breaks"
+	}
+}
