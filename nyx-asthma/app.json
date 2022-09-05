@@ -223,7 +223,7 @@
 	"charts": [
 		{
 			"type": "chart",
-			"scope": "charts",
+			"scope": "root",
 			"settings": {
 				"type": "line",
 				"orientation": "horizontal",
