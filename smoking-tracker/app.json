@@ -87,7 +87,7 @@
 				"prefix": "Cigarettes smoked ",
 				"default": "1",
 				"number_style": "bar",
-				"bar_style": "continuous",
+				"bar_style": "discrete",
 				"max": 10
 			},
 			"name": "cigs"
