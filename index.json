@@ -11,5 +11,18 @@
 		"storage": "",
 		"charts_placement": "",
 		"entries_name": "smoke breaks"
+	},
+	"mein-kopf-tut-weh": {
+		"name": "Mein Kopf Tut Weh",
+		"slug": "mein-kopf-tut-weh",
+		"entry_name": "entry",
+		"description": "Migraine tracker",
+		"private": false,
+		"icon": "⛈",
+		"color": "#546163",
+		"storageType": "",
+		"storage": "",
+		"charts_placement": "",
+		"entries_name": "entries"
 	}
 }
