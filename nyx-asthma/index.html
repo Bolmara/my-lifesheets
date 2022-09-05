@@ -33,15 +33,15 @@
 			<div class="chart-row">
 				<figure data-type="chart" class="chart appearance-stretch type-line" style="min-width: min(300px, 100vw)">
 	
-	<h-chart type="line">
+	<h-chart type="line" options="smooth">
 		<table>
 			<thead>
 				<tr>
 					<th hc-name="a">Month</th>
-					<th hc-name="b">Number of intensity values</th>
+					<th hc-name="b">Number of fits</th>
 				</tr>
 			</thead>
-			<tbody mv-list="chart15" mv-value="groupBy(entry.intensity, readable_datetime(entry.date, 'month'))">
+			<tbody mv-list="chart15" mv-value="groupBy(entry.entry, readable_datetime(entry.date, 'month'))">
 				<tr mv-list-item mv-group>
 					<td>[$value]</td>
 					<td>[count($items)]</td>
@@ -49,11 +49,12 @@
 			</tbody>
 		</table>
 	</h-chart>
-	<figcaption>Number of intensity values per month</figcaption></figure>
+	<figcaption>Number of fits per month</figcaption></figure>
 			</div>
 		<a id=entries></a>
 			<div class="field-row">
 				<button data-type="action" data-show="edit" mv-action="add(entry)">➕ Add fit</button>
+				<button data-type="action" mv-action="set(last(entry), meds: meds+1)">Give pill</button>
 				<button data-type="action" mv-action="set(last(entry), end_time: time($now))">End coughing fit</button>
 			</div>
 		<section mv-list="entry">
