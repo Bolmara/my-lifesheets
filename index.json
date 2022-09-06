@@ -37,5 +37,19 @@
 		"storage": "",
 		"charts_placement": "",
 		"entries_name": "fits"
+	},
+	"nyxs-asthma": {
+		"name": "Nyx's Asthma",
+		"slug": "nyxs-asthma",
+		"entry_name": "cough",
+		"entries_name": "coughs",
+		"description": "cough tracker",
+		"private": true,
+		"icon": "😀",
+		"color": "#1a1a2e",
+		"storage_type": "",
+		"storage": "",
+		"custom_css": "",
+		"charts_placement": ""
 	}
 }
