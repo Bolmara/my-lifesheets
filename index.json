@@ -44,7 +44,7 @@
 		"entry_name": "cough",
 		"entries_name": "coughs",
 		"description": "cough tracker",
-		"private": true,
+		"private": false,
 		"icon": "🐱‍🚀",
 		"color": "#1a1a2e",
 		"storage_type": "",
