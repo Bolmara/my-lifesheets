@@ -1,0 +1,42 @@
+{
+	"entry": [
+		{
+			"date": "2022-09-09",
+			"time": "17:00",
+			"intensity": 3,
+			"frequency": "A few coughs hunched",
+			"mood": [
+				"Distressed",
+				"Sleepy"
+			]
+		},
+		{
+			"date": "2022-09-09",
+			"time": "19:00",
+			"intensity": 3,
+			"frequency": "A few coughs hunched",
+			"mood": [
+				"Distressed",
+				"Distant"
+			]
+		},
+		{
+			"date": "2022-09-11",
+			"time": "22:00",
+			"intensity": 3,
+			"frequency": "Single cough",
+			"mood": [
+				"Calm"
+			]
+		},
+		{
+			"date": "2022-09-12",
+			"time": "22:00",
+			"intensity": 3,
+			"frequency": "A few coughs",
+			"mood": [
+				"Relaxed"
+			]
+		}
+	]
+}
