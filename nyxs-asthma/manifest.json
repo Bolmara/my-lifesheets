@@ -1,0 +1,16 @@
+{
+	"$schema": "https://json.schemastore.org/web-manifest-combined.json",
+	"name": "Nyx's Asthma",
+	"short_name": "Nyx's Asthma",
+	"start_url": "https://bolmara.lifesheets.app/nyxs-asthma",
+	"display": "standalone",
+	"background_color": "#1a1a2e",
+	"description": "cough tracker",
+	"icons": [
+		{
+			"src": "data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><text style=\"font-size: 80px\" x=\"50%\" y=\".85em\" dominant-baseline=\"middle\" text-anchor=\"middle\">🐱‍🚀</text></svg>",
+			"sizes": "any",
+			"type": "image/svg+xml"
+		}
+	]
+}
