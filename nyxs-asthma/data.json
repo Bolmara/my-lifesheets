@@ -13,7 +13,7 @@
 		{
 			"date": "2022-09-09",
 			"time": "19:00",
-			"intensity": 3,
+			"intensity": 4,
 			"frequency": "A few coughs hunched",
 			"mood": [
 				"Distressed",
@@ -23,7 +23,7 @@
 		{
 			"date": "2022-09-11",
 			"time": "22:00",
-			"intensity": 3,
+			"intensity": 2,
 			"frequency": "Single cough",
 			"mood": [
 				"Calm"
@@ -32,10 +32,19 @@
 		{
 			"date": "2022-09-12",
 			"time": "22:00",
-			"intensity": 3,
+			"intensity": 2,
 			"frequency": "A few coughs",
 			"mood": [
 				"Relaxed"
+			]
+		},
+		{
+			"date": "2022-09-16",
+			"time": "22:00",
+			"intensity": 2,
+			"frequency": "A few coughs",
+			"mood": [
+				"Sleepy"
 			]
 		}
 	]
