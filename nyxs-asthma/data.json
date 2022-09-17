@@ -46,6 +46,16 @@
 			"mood": [
 				"Sleepy"
 			]
+		},
+		{
+			"date": "2022-09-17",
+			"time": "14:35",
+			"intensity": 1,
+			"frequency": "A few coughs",
+			"mood": [
+				"Calm",
+				"Cuddly"
+			]
 		}
 	]
 }
