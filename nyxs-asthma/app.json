@@ -89,7 +89,8 @@
 				"number_style": "number",
 				"appearance": "",
 				"prefix": "Intensity - ",
-				"number_edit": "slider"
+				"number_edit": "slider",
+				"max": 10
 			},
 			"name": "intensity"
 		},
