@@ -180,9 +180,10 @@
 			"type": "chart",
 			"scope": "charts",
 			"settings": {
-				"group_by": "day",
-				"type": "line",
-				"orientation": "horizontal"
+				"group_by": "month",
+				"type": "bar",
+				"orientation": "horizontal",
+				"aggregate_of": "entry"
 			}
 		}
 	]
