@@ -32,17 +32,17 @@
 	<main class="charts-first">
 		<a id=stats></a>
 			<div class="chart-row">
-				<figure data-type="chart" class="chart appearance-stretch type-line" style="min-width: min(300px, 100vw)">
+				<figure data-type="chart" class="chart appearance-stretch type-bar" style="min-width: min(300px, 100vw)">
 	
-	<h-chart id="chart12" type="line" x="a">
+	<h-chart id="chart12" type="bar" x="a">
 		<table>
 			<thead>
 				<tr>
-					<th hc-name="a">Day</th>
+					<th hc-name="a">Month</th>
 					<th hc-name="b">Number of coughs</th>
 				</tr>
 			</thead>
-			<tbody mv-list="chart12" mv-value="groupBy(entry.entry, readable_datetime(entry.date, 'day'))">
+			<tbody mv-list="chart12" mv-value="groupBy(entry.entry, readable_datetime(entry.date, 'month'))">
 				<tr mv-list-item mv-group>
 					<td>[$value]</td>
 					<td>[count($items)]</td>
@@ -50,7 +50,7 @@
 			</tbody>
 		</table>
 	</h-chart>
-	<figcaption>Number of coughs per day</figcaption></figure>
+	<figcaption>Number of coughs per month</figcaption></figure>
 			</div>
 		<a id=entries></a>
 			<div class="field-row">
