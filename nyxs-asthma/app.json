@@ -150,7 +150,7 @@
 			"type": "property",
 			"scope": "entry",
 			"settings": {
-				"prefix": "Pill (half) ? ",
+				"prefix": "Gave half pill ? ",
 				"type": "toggle",
 				"toggle_type": "multiple",
 				"options": "✖, 💊"
