@@ -136,6 +136,26 @@
 				"suffix": ""
 			},
 			"name": "mood"
+		},
+		{
+			"type": "spacer",
+			"scope": "entry",
+			"settings": {
+				"appearance": "",
+				"min_width": 4,
+				"min_width_unit": "%"
+			}
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"settings": {
+				"prefix": "Pill (half) ? ",
+				"type": "toggle",
+				"toggle_type": "multiple",
+				"options": "✖, 💊"
+			},
+			"name": "pill"
 		}
 	],
 	"root": [
@@ -156,7 +176,7 @@
 	"charts": [
 		{
 			"type": "chart",
-			"scope": "root",
+			"scope": "charts",
 			"settings": {
 				"group_by": "day",
 				"type": "line",
