@@ -67,6 +67,16 @@
 			],
 			"pill": "💊",
 			"notes": "gave pill"
+		},
+		{
+			"date": "2022-09-19",
+			"time": "14:11",
+			"notes": "darth vader breathing afterwards. fur ball?",
+			"intensity": "5",
+			"frequency": "A few coughs hunched",
+			"mood": [
+				"Calm"
+			]
 		}
 	]
 }
