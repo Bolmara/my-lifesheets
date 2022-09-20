@@ -1,6 +1,51 @@
 {
 	"entry": [
 		{
+			"date": "2022-05-08",
+			"notes": "Half pill",
+			"intensity": 7,
+			"frequency": "Coughing fit hunched",
+			"mood": [
+				"--------"
+			]
+		},
+		{
+			"date": "2022-05-28",
+			"notes": "Half pill - hoovered - another half pill 6 hours later",
+			"intensity": 8,
+			"frequency": "Coughing fit hunched",
+			"mood": [
+				"--------"
+			]
+		},
+		{
+			"date": "2022-06-30",
+			"notes": "Gave half pill, hoovered",
+			"intensity": 8,
+			"frequency": "Coughing fit hunched",
+			"mood": [
+				"--------"
+			]
+		},
+		{
+			"date": "2022-07-21",
+			"notes": "Full pill ",
+			"intensity": 8,
+			"frequency": "Coughing fit hunched",
+			"mood": [
+				"--------"
+			]
+		},
+		{
+			"date": "2022-08-25",
+			"notes": "Full pill",
+			"intensity": 8,
+			"frequency": "Coughing fit hunched",
+			"mood": [
+				"--------"
+			]
+		},
+		{
 			"date": "2022-09-09",
 			"time": "17:00",
 			"intensity": 3,
@@ -78,6 +123,16 @@
 				"Calm"
 			],
 			"pill": "💊"
+		},
+		{
+			"date": "2022-09-20",
+			"time": "02:45",
+			"intensity": "5",
+			"frequency": "A few coughs",
+			"mood": [
+				"Cuddly",
+				"Sleepy"
+			]
 		}
 	]
 }
