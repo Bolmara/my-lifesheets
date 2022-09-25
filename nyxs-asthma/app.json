@@ -168,7 +168,7 @@
 				"prefix": "Mood - ",
 				"type": "options",
 				"allow_multiple": "yes",
-				"options": "--------, Calm, Relaxed, Frustrated, Sleepy, Distressed, Fidgety, Cuddly, Distant, Hiding",
+				"options": "--------, Calm, Relaxed, Frustrated, Sleepy, Distressed, Fidgety, Cuddly, Distant, Hiding; Hissy",
 				"appearance": "",
 				"suffix": ""
 			},
@@ -189,7 +189,7 @@
 			"settings": {
 				"prefix": "Fur quality - ",
 				"type": "options",
-				"options": "ultrasoft, soft, dry, rough, greasy"
+				"options": "Ultrasoft, Soft, Dry, Rough, Greasy"
 			},
 			"name": "fur"
 		}
