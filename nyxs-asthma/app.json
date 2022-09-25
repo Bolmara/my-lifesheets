@@ -155,7 +155,8 @@
 				"prefix": "Gave half pill ? ",
 				"type": "toggle",
 				"toggle_type": "multiple",
-				"options": "✖, 💊"
+				"options": "✖, 💊, 💊💊",
+				"allow_multiple": "yes"
 			},
 			"name": "pill"
 		}
@@ -184,6 +185,13 @@
 				"type": "bar",
 				"orientation": "horizontal",
 				"aggregate_of": "entry"
+			}
+		},
+		{
+			"type": "chart",
+			"scope": "charts",
+			"settings": {
+				"aggregate_of": "pill"
 			}
 		}
 	]
