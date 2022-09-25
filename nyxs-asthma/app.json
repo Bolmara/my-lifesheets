@@ -216,9 +216,11 @@
 			"scope": "charts",
 			"settings": {
 				"group_by": "month",
-				"type": "bar",
+				"type": "line",
 				"orientation": "horizontal",
-				"aggregate_of": "entry"
+				"aggregate_of": "entry",
+				"smooth": true,
+				"area": true
 			}
 		},
 		{
