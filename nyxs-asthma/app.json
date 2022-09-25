@@ -136,7 +136,7 @@
 				"options": "✖, 💊",
 				"allow_multiple": ""
 			},
-			"name": "pill"
+			"name": "halfpill"
 		},
 		{
 			"type": "spacer",
@@ -208,7 +208,7 @@
 			"type": "chart",
 			"scope": "charts",
 			"settings": {
-				"aggregate_of": "pill",
+				"aggregate_of": "halfpill",
 				"caption": "Number of half pill values per month",
 				"aggregate": "count",
 				"type": "table",
