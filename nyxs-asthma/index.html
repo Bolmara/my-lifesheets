@@ -34,7 +34,7 @@
 			<div class="chart-row">
 				<figure data-type="chart" class="chart appearance-stretch type-bar" style="min-width: min(300px, 100vw)">
 	
-	<h-chart id="chart14" type="bar" x="a">
+	<h-chart id="chart18" type="bar" x="a">
 		<table>
 			<thead>
 				<tr>
@@ -42,7 +42,7 @@
 					<th hc-name="b">Number of coughs</th>
 				</tr>
 			</thead>
-			<tbody mv-list="chart14" mv-value="groupBy(entry.entry, readable_datetime(entry.date_time, 'month'))">
+			<tbody mv-list="chart18" mv-value="groupBy(entry.entry, readable_datetime(entry.date_time, 'month'))">
 				<tr mv-list-item mv-group>
 					<td>[$value]</td>
 					<td>[count($items)]</td>
@@ -60,7 +60,7 @@
 					<th hc-name="b">Number of halfpill values</th>
 				</tr>
 			</thead>
-			<tbody mv-list="chart16" mv-value="groupBy(entry.halfpill, readable_datetime(entry.date_time, 'month'))">
+			<tbody mv-list="chart19" mv-value="groupBy(entry.halfpill, readable_datetime(entry.date_time, 'month'))">
 				<tr mv-list-item mv-group>
 					<td>[$value]</td>
 					<td>[count($items)]</td>
@@ -81,7 +81,7 @@
 					<time property="time" data-type="property" data-prefix=" at " mv-default="[time($startup, 'hours')]" mv-edit-type="inline" mv-editor-type="time" class="type-time"></time>
 					<span property="date_time" data-type="expression" data-show="false" mv-value="datetime(date, time)"></span>
 					<span data-type="spacer" class="appearance-stretch"></span>
-					<span property="timesince" data-type="expression" data-prefix="Last coughs  " data-suffix=" ago" mv-value="duration(date - $previous.date)" style="color: #e66d00"></span>
+					<span property="timesince" data-type="expression" data-prefix="Last coughs  " data-suffix=" ago" mv-value="duration(date - $previous.date, '3')" style="color: #e66d00"></span>
 				</header>
 				<div property="notes" data-type="property" class="appearance-line type-text"></div>
 				<div class="field-row">
