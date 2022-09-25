@@ -188,12 +188,11 @@
 			"scope": "entry",
 			"settings": {
 				"prefix": "Fur quality - ",
-				"type": "options",
-				"options": "--------, Ultrasoft, Soft, Dry, Rough, Greasy",
 				"allow_multiple": "yes",
-				"initial_items": "0"
+				"type": "options",
+				"options": "--------, Ultrasoft, Soft, Dry, Rough, Greasy"
 			},
-			"name": "fur"
+			"name": "furquality"
 		}
 	],
 	"root": [
