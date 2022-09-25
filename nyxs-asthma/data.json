@@ -9,7 +9,9 @@
 				"--------"
 			],
 			"pill": "💊",
-			"time": "16:00"
+			"time": "16:00",
+			"halfpill": "💊",
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-05-28",
@@ -20,7 +22,9 @@
 				"--------"
 			],
 			"pill": "💊",
-			"time": "16:00"
+			"time": "16:00",
+			"halfpill": "💊",
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-06-30",
@@ -31,7 +35,9 @@
 				"--------"
 			],
 			"pill": "💊",
-			"time": "16:00"
+			"time": "16:00",
+			"halfpill": "💊",
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-07-21",
@@ -42,7 +48,9 @@
 				"--------"
 			],
 			"pill": "💊",
-			"time": "16:00"
+			"time": "16:00",
+			"halfpill": "💊",
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-08-25",
@@ -53,7 +61,9 @@
 				"--------"
 			],
 			"pill": "💊",
-			"time": "16:00"
+			"time": "16:00",
+			"halfpill": "💊",
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-09-09",
@@ -63,7 +73,8 @@
 			"mood": [
 				"Distressed",
 				"Sleepy"
-			]
+			],
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-09-09",
@@ -73,7 +84,8 @@
 			"mood": [
 				"Distressed",
 				"Distant"
-			]
+			],
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-09-11",
@@ -82,7 +94,8 @@
 			"frequency": "Single cough",
 			"mood": [
 				"Calm"
-			]
+			],
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-09-12",
@@ -91,7 +104,8 @@
 			"frequency": "A few coughs",
 			"mood": [
 				"Relaxed"
-			]
+			],
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-09-16",
@@ -100,7 +114,8 @@
 			"frequency": "A few coughs",
 			"mood": [
 				"Sleepy"
-			]
+			],
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-09-17",
@@ -110,7 +125,8 @@
 			"mood": [
 				"Calm",
 				"Cuddly"
-			]
+			],
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-09-18",
@@ -121,7 +137,9 @@
 				"Cuddly"
 			],
 			"pill": "💊",
-			"notes": "gave pill"
+			"notes": "gave pill",
+			"halfpill": "💊",
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-09-19",
@@ -132,7 +150,8 @@
 			"mood": [
 				"Calm"
 			],
-			"pill": "✖"
+			"pill": "✖",
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-09-20",
@@ -142,7 +161,8 @@
 			"mood": [
 				"Cuddly",
 				"Sleepy"
-			]
+			],
+			"fur": "ultrasoft"
 		},
 		{
 			"date": "2022-09-25",
@@ -153,7 +173,9 @@
 				"Cuddly"
 			],
 			"pill": "💊",
-			"time": "19:00"
+			"time": "19:00",
+			"halfpill": "💊",
+			"fur": "ultrasoft"
 		}
 	]
 }
