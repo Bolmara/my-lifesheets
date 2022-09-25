@@ -72,6 +72,22 @@
 			"name": "date_time"
 		},
 		{
+			"type": "spacer",
+			"scope": "entry",
+			"settings": {}
+		},
+		{
+			"type": "expression",
+			"scope": "entry",
+			"settings": {
+				"expression": "duration(date - $previous.date)",
+				"prefix": "Last coughs  ",
+				"suffix": " ago",
+				"text_color": "#e66d00"
+			},
+			"name": "timesince"
+		},
+		{
 			"type": "property",
 			"scope": "entry",
 			"settings": {
