@@ -155,8 +155,8 @@
 				"prefix": "Gave half pill ? ",
 				"type": "toggle",
 				"toggle_type": "multiple",
-				"options": "✖, 💊, 💊💊",
-				"allow_multiple": "yes"
+				"options": "✖, 💊",
+				"allow_multiple": ""
 			},
 			"name": "pill"
 		}
