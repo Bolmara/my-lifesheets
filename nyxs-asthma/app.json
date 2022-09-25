@@ -189,7 +189,9 @@
 			"settings": {
 				"prefix": "Fur quality - ",
 				"type": "options",
-				"options": "--------, Ultrasoft, Soft, Dry, Rough, Greasy"
+				"options": "--------, Ultrasoft, Soft, Dry, Rough, Greasy",
+				"allow_multiple": "yes",
+				"initial_items": "0"
 			},
 			"name": "fur"
 		}
