@@ -130,6 +130,25 @@
 			"type": "property",
 			"scope": "entry",
 			"settings": {
+				"prefix": "Gave half pill ? ",
+				"type": "toggle",
+				"toggle_type": "multiple",
+				"options": "✖, 💊",
+				"allow_multiple": ""
+			},
+			"name": "pill"
+		},
+		{
+			"type": "spacer",
+			"scope": "entry",
+			"settings": {
+				"appearance": "line"
+			}
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"settings": {
 				"prefix": "Mood - ",
 				"type": "options",
 				"allow_multiple": "yes",
@@ -152,13 +171,11 @@
 			"type": "property",
 			"scope": "entry",
 			"settings": {
-				"prefix": "Gave half pill ? ",
-				"type": "toggle",
-				"toggle_type": "multiple",
-				"options": "✖, 💊",
-				"allow_multiple": ""
+				"prefix": "Fur quality - ",
+				"type": "options",
+				"options": "Ultrasoft, soft, dry, rough, greasy"
 			},
-			"name": "pill"
+			"name": "fur"
 		}
 	],
 	"root": [
@@ -191,7 +208,11 @@
 			"type": "chart",
 			"scope": "charts",
 			"settings": {
-				"aggregate_of": "pill"
+				"aggregate_of": "pill",
+				"caption": "Number of half pill values per month",
+				"aggregate": "count",
+				"type": "table",
+				"text_color": "#1a1a2e"
 			}
 		}
 	]
