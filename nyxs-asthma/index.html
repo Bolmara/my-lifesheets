@@ -57,10 +57,10 @@
 			<thead>
 				<tr>
 					<th hc-name="a">Month</th>
-					<th hc-name="b">Number of pill values</th>
+					<th hc-name="b">Number of halfpill values</th>
 				</tr>
 			</thead>
-			<tbody mv-list="chart16" mv-value="groupBy(entry.pill, readable_datetime(entry.date_time, 'month'))">
+			<tbody mv-list="chart16" mv-value="groupBy(entry.halfpill, readable_datetime(entry.date_time, 'month'))">
 				<tr mv-list-item mv-group>
 					<td>[$value]</td>
 					<td>[count($items)]</td>
@@ -87,7 +87,7 @@
 					<span data-type="spacer" style="min-width: min(4%, 100vw)"></span>
 					<span property="frequency" data-type="property" data-prefix="Frequency (roughly) - " mv-options="Single cough, A few coughs, A few coughs hunched , Coughing fit hunched" class="type-options"></span>
 					<span data-type="spacer" style="min-width: min(4%, 100vw)"></span>
-					<cycle-toggle property="pill" data-type="property" data-prefix="Gave half pill ? " mv-edit-as="formControl" class="type-toggle"><span>✖</span>
+					<cycle-toggle property="halfpill" data-type="property" data-prefix="Gave half pill ? " mv-edit-as="formControl" class="type-toggle"><span>✖</span>
 <span>💊</span></cycle-toggle>
 				</div>
 				<span data-type="spacer" class="appearance-line"></span>
