@@ -8,7 +8,8 @@
 			"mood": [
 				"--------"
 			],
-			"pill": "💊"
+			"pill": "💊",
+			"time": "16:00"
 		},
 		{
 			"date": "2022-05-28",
@@ -18,7 +19,8 @@
 			"mood": [
 				"--------"
 			],
-			"pill": "💊"
+			"pill": "💊",
+			"time": "16:00"
 		},
 		{
 			"date": "2022-06-30",
@@ -28,7 +30,8 @@
 			"mood": [
 				"--------"
 			],
-			"pill": "💊"
+			"pill": "💊",
+			"time": "16:00"
 		},
 		{
 			"date": "2022-07-21",
@@ -38,7 +41,8 @@
 			"mood": [
 				"--------"
 			],
-			"pill": "💊"
+			"pill": "💊",
+			"time": "16:00"
 		},
 		{
 			"date": "2022-08-25",
@@ -48,7 +52,8 @@
 			"mood": [
 				"--------"
 			],
-			"pill": "💊"
+			"pill": "💊",
+			"time": "16:00"
 		},
 		{
 			"date": "2022-09-09",
@@ -127,17 +132,27 @@
 			"mood": [
 				"Calm"
 			],
-			"pill": "💊"
+			"pill": "✖"
 		},
 		{
 			"date": "2022-09-20",
 			"time": "02:45",
-			"intensity": "5",
+			"intensity": 4,
 			"frequency": "A few coughs",
 			"mood": [
 				"Cuddly",
 				"Sleepy"
 			]
+		},
+		{
+			"date": "2022-09-25",
+			"notes": "lots of small coughing bouts, some scratchy breathing, a little bit of hunching",
+			"intensity": "5",
+			"frequency": "A few coughs hunched",
+			"mood": [
+				"Cuddly"
+			],
+			"pill": "💊"
 		}
 	]
 }
