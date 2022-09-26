@@ -150,7 +150,7 @@
 				"type": "toggle",
 				"toggle_type": "multiple",
 				"options": "✖, 💊",
-				"allow_multiple": ""
+				"allow_multiple": "yes"
 			},
 			"name": "halfpill"
 		},
