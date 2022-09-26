@@ -149,7 +149,7 @@
 				"prefix": "Gave half pill ? ",
 				"type": "toggle",
 				"toggle_type": "multiple",
-				"options": "✖, 💊",
+				"options": "✖, 💊,  💊💊",
 				"allow_multiple": "",
 				"initial_items": "0"
 			},
@@ -229,7 +229,7 @@
 			"scope": "charts",
 			"settings": {
 				"aggregate_of": "halfpill",
-				"caption": "Number of half pill values per month",
+				"caption": "Number of times Nyx was given meds",
 				"aggregate": "count",
 				"type": "table",
 				"text_color": "#1a1a2e"
