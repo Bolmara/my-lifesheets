@@ -10,7 +10,9 @@
 			],
 			"pill": "💊",
 			"time": "16:00",
-			"halfpill": "💊",
+			"halfpill": [
+				"💊"
+			],
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
@@ -26,7 +28,10 @@
 			],
 			"pill": "💊",
 			"time": "16:00",
-			"halfpill": "💊",
+			"halfpill": [
+				"💊",
+				"💊"
+			],
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
@@ -42,7 +47,9 @@
 			],
 			"pill": "💊",
 			"time": "16:00",
-			"halfpill": "💊",
+			"halfpill": [
+				"💊"
+			],
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
@@ -58,7 +65,10 @@
 			],
 			"pill": "💊",
 			"time": "16:00",
-			"halfpill": "💊",
+			"halfpill": [
+				"💊",
+				"💊"
+			],
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
@@ -74,7 +84,10 @@
 			],
 			"pill": "💊",
 			"time": "16:00",
-			"halfpill": "💊",
+			"halfpill": [
+				"💊",
+				"💊"
+			],
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
@@ -92,7 +105,8 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			]
+			],
+			"halfpill": []
 		},
 		{
 			"date": "2022-09-09",
@@ -106,7 +120,8 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			]
+			],
+			"halfpill": []
 		},
 		{
 			"date": "2022-09-11",
@@ -119,7 +134,8 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			]
+			],
+			"halfpill": []
 		},
 		{
 			"date": "2022-09-12",
@@ -132,7 +148,8 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			]
+			],
+			"halfpill": []
 		},
 		{
 			"date": "2022-09-16",
@@ -145,7 +162,8 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			]
+			],
+			"halfpill": []
 		},
 		{
 			"date": "2022-09-17",
@@ -159,7 +177,8 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			]
+			],
+			"halfpill": []
 		},
 		{
 			"date": "2022-09-18",
@@ -171,7 +190,9 @@
 			],
 			"pill": "💊",
 			"notes": "gave pill",
-			"halfpill": "💊",
+			"halfpill": [
+				"💊"
+			],
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
@@ -190,7 +211,8 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			]
+			],
+			"halfpill": []
 		},
 		{
 			"date": "2022-09-20",
@@ -204,7 +226,8 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			]
+			],
+			"halfpill": []
 		},
 		{
 			"date": "2022-09-25",
@@ -216,7 +239,9 @@
 			],
 			"pill": "💊",
 			"time": "19:00",
-			"halfpill": "💊",
+			"halfpill": [
+				"💊"
+			],
 			"fur": "ultrasoft",
 			"furquality": [
 				"Soft"
