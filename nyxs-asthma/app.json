@@ -221,7 +221,8 @@
 				"orientation": "horizontal",
 				"aggregate_of": "entry",
 				"smooth": true,
-				"area": true
+				"area": true,
+				"appearance": "stretch"
 			}
 		},
 		{
