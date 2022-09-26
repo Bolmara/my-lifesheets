@@ -143,10 +143,17 @@
 			}
 		},
 		{
+			"type": "expression",
+			"scope": "entry",
+			"settings": {
+				"expression": "'Gave half pill ? '"
+			}
+		},
+		{
 			"type": "property",
 			"scope": "entry",
 			"settings": {
-				"prefix": "Gave half pill ? ",
+				"prefix": "",
 				"type": "toggle",
 				"toggle_type": "multiple",
 				"options": "✖, 💊",
