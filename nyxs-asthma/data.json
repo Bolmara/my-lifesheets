@@ -102,9 +102,6 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			],
-			"halfpill": [
-				null
 			]
 		},
 		{
@@ -119,9 +116,6 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			],
-			"halfpill": [
-				null
 			]
 		},
 		{
@@ -135,9 +129,6 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			],
-			"halfpill": [
-				null
 			]
 		},
 		{
@@ -151,9 +142,6 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			],
-			"halfpill": [
-				null
 			]
 		},
 		{
@@ -167,9 +155,6 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			],
-			"halfpill": [
-				null
 			]
 		},
 		{
@@ -184,9 +169,6 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			],
-			"halfpill": [
-				null
 			]
 		},
 		{
@@ -220,9 +202,6 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			],
-			"halfpill": [
-				null
 			]
 		},
 		{
@@ -237,9 +216,6 @@
 			"fur": "ultrasoft",
 			"furquality": [
 				"--------"
-			],
-			"halfpill": [
-				null
 			]
 		},
 		{
@@ -256,6 +232,18 @@
 				"💊"
 			],
 			"fur": "ultrasoft",
+			"furquality": [
+				"Soft"
+			]
+		},
+		{
+			"date": "2022-09-27",
+			"notes": "coughed in my arms, scratchy then again a few coughs in her sleep",
+			"intensity": 4,
+			"frequency": "A few coughs",
+			"mood": [
+				"Calm"
+			],
 			"furquality": [
 				"Soft"
 			]
