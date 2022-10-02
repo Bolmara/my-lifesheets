@@ -246,6 +246,20 @@
 			],
 			"furquality": [
 				"Soft"
+			],
+			"time": "00:00"
+		},
+		{
+			"date": "2022-10-03",
+			"time": "00:00",
+			"notes": "scratchy dry cough",
+			"intensity": 3,
+			"frequency": "A few coughs",
+			"mood": [
+				"Sleepy"
+			],
+			"furquality": [
+				"--------"
 			]
 		}
 	]
