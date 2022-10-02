@@ -256,7 +256,8 @@
 			"intensity": 3,
 			"frequency": "A few coughs",
 			"mood": [
-				"Sleepy"
+				"Sleepy",
+				"Cuddly"
 			],
 			"furquality": [
 				"--------"
