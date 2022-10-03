@@ -268,9 +268,22 @@
 		{
 			"date": "2022-10-03",
 			"time": "03:00",
-			"intensity": 6,
-			"frequency": "A few coughs hunched",
+			"intensity": 9,
+			"frequency": "Coughing fit hunched",
 			"halfpill": "💊",
+			"mood": [
+				"--------"
+			],
+			"furquality": [
+				"--------"
+			]
+		},
+		{
+			"date": "2022-10-03",
+			"time": "14:00",
+			"notes": "### Vet\nGetting steroid shot - mini ten days before next pill\nconsider inhaler if continues, for winter. ",
+			"intensity": "5",
+			"frequency": "Single cough",
 			"mood": [
 				"--------"
 			],
