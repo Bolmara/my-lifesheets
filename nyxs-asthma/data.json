@@ -260,9 +260,22 @@
 				"Cuddly"
 			],
 			"furquality": [
-				"Soft"
+				"Soft",
+				"Greasy"
 			],
 			"halfpill": "💊"
+		},
+		{
+			"date": "2022-10-03",
+			"time": "03:00",
+			"intensity": 6,
+			"frequency": "A few coughs hunched",
+			"mood": [
+				"--------"
+			],
+			"furquality": [
+				"--------"
+			]
 		}
 	]
 }
