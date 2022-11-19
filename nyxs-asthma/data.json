@@ -290,6 +290,29 @@
 			"furquality": [
 				"--------"
 			]
+		},
+		{
+			"date": "2022-11-15",
+			"intensity": 1,
+			"frequency": "Single cough",
+			"mood": [
+				"--------"
+			],
+			"furquality": [
+				"--------"
+			]
+		},
+		{
+			"date": "2022-11-19",
+			"time": "02:00",
+			"intensity": 2,
+			"frequency": "A few coughs",
+			"mood": [
+				"--------"
+			],
+			"furquality": [
+				"--------"
+			]
 		}
 	]
 }
