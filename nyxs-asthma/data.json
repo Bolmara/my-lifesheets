@@ -300,7 +300,8 @@
 			],
 			"furquality": [
 				"--------"
-			]
+			],
+			"time": "19:00"
 		},
 		{
 			"date": "2022-11-19",
@@ -312,6 +313,20 @@
 			],
 			"furquality": [
 				"--------"
+			]
+		},
+		{
+			"date": "2022-11-23",
+			"time": "19:00",
+			"notes": "few coughs over the last hour",
+			"intensity": 4,
+			"frequency": "A few coughs",
+			"halfpill": "💊",
+			"mood": [
+				"Calm"
+			],
+			"furquality": [
+				"Ultrasoft"
 			]
 		}
 	]
