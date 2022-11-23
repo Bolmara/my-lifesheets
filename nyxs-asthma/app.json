@@ -80,7 +80,7 @@
 			"type": "expression",
 			"scope": "entry",
 			"settings": {
-				"expression": "duration(date - $previous.date, '3')",
+				"expression": "duration($previous.date_time - date_time)",
 				"prefix": "Last coughs  ",
 				"suffix": " ago",
 				"text_color": "#e66d00"
