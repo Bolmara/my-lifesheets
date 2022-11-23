@@ -85,7 +85,7 @@
 					<time property="time" data-type="property" data-prefix=" at " mv-default="[time($startup, 'hours')]" mv-edit-type="inline" mv-editor-type="time" class="type-time"></time>
 					<span property="date_time" data-type="expression" data-show="false" mv-value="datetime(date, time)"></span>
 					<span data-type="spacer" class="appearance-stretch"></span>
-					<span property="timesince" data-type="expression" data-prefix="Last coughs  " data-suffix=" ago" mv-value="duration(date - $previous.date, '3')" style="color: #e66d00"></span>
+					<span property="timesince" data-type="expression" data-prefix="Last coughs  " data-suffix=" ago" mv-value="duration($previous.date_time - date_time)" style="color: #e66d00"></span>
 				</header>
 				<div property="notes" data-type="property" class="appearance-line type-text"></div>
 				<div class="field-row">
