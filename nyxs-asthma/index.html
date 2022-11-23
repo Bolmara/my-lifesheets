@@ -71,6 +71,10 @@
 			</div>
 		<a id=entries></a>
 			<div class="field-row">
+				<span property="timesince2" data-type="expression" mv-value="'Time since last entry - ' & duration($now - last(date_time))"></span>
+			</div>
+			<span data-type="spacer" class="appearance-line" style="min-width: min(30px, 100vw)"></span>
+			<div class="field-row">
 				<button data-type="action" data-show="edit" mv-action="add(entry)">➕ Add cough</button>
 			</div>
 		<section mv-list="entry">
