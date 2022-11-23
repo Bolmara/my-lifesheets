@@ -198,16 +198,38 @@
 	],
 	"root": [
 		{
+			"type": "expression",
+			"scope": "root",
+			"settings": {
+				"expression": "'Time since last entry - ' & duration($now - last(date_time))"
+			},
+			"name": "timesince2"
+		},
+		{
+			"type": "spacer",
+			"scope": "root",
+			"settings": {
+				"appearance": "line",
+				"min_width": 30
+			}
+		},
+		{
 			"type": "action",
 			"scope": "root",
 			"settings": {
 				"visible": "edit",
 				"label": "➕ Add cough",
-				"target": "add(entry)",
 				"target_preset": "new",
 				"appearance": "",
-				"set_pairs": [],
-				"filter_pairs": []
+				"actions": [
+					{
+						"type": "add",
+						"target": "add(entry)",
+						"filter_junction": "and",
+						"set_pairs": [],
+						"filter_pairs": []
+					}
+				]
 			}
 		}
 	],
