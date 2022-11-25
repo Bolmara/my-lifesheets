@@ -81,9 +81,10 @@
 			"scope": "entry",
 			"settings": {
 				"expression": "duration($previous.date_time - date_time)",
-				"prefix": "Last coughs  ",
+				"prefix": "Last coughs ",
 				"suffix": " ago",
-				"text_color": "#e66d00"
+				"text_color": "#e66d00",
+				"appearance": ""
 			},
 			"name": "timesince"
 		},
@@ -201,7 +202,12 @@
 			"type": "expression",
 			"scope": "root",
 			"settings": {
-				"expression": "'Time since last entry - ' & duration($now - last(date_time))"
+				"expression": "'Time since last entry - ' & duration($now - last(date_time))",
+				"text_color": "#de3e2d",
+				"formatting": [
+					"b"
+				],
+				"appearance": "line"
 			},
 			"name": "timesince2"
 		},
