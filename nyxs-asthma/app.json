@@ -81,7 +81,7 @@
 			"scope": "entry",
 			"settings": {
 				"expression": "duration($previous.date_time - date_time)",
-				"prefix": "Last coughs ",
+				"prefix": "Last entry",
 				"suffix": " ago",
 				"text_color": "#e66d00",
 				"appearance": ""
@@ -244,13 +244,14 @@
 			"type": "chart",
 			"scope": "charts",
 			"settings": {
-				"group_by": "month",
+				"group_by": "day",
 				"type": "line",
 				"orientation": "horizontal",
-				"aggregate_of": "entry",
+				"aggregate_of": "intensity",
 				"smooth": true,
-				"area": true,
-				"appearance": "stretch"
+				"area": false,
+				"appearance": "stretch",
+				"aggregate": "max"
 			}
 		},
 		{
