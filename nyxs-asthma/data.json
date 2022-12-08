@@ -328,6 +328,21 @@
 			"furquality": [
 				"Ultrasoft"
 			]
+		},
+		{
+			"date": "2022-12-08",
+			"time": "00:30",
+			"notes": "two fits over the last twenty minutes, not intense but she came over and sat calmly for a pill. Really need to do tidying",
+			"intensity": "5",
+			"frequency": "A few coughs",
+			"halfpill": "💊",
+			"mood": [
+				"Cuddly",
+				"--------"
+			],
+			"furquality": [
+				"Dry"
+			]
 		}
 	]
 }
