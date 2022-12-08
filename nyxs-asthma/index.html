@@ -34,23 +34,23 @@
 			<div class="chart-row">
 				<figure data-type="chart" class="chart appearance-stretch type-line" style="min-width: min(300px, 100vw)">
 	
-	<h-chart id="chart20" type="line" x="a" options="smooth area">
+	<h-chart id="chart20" type="line" x="a" options="smooth">
 		<table>
 			<thead>
 				<tr>
-					<th hc-name="a">Month</th>
-					<th hc-name="b">Number of coughs</th>
+					<th hc-name="a">Day</th>
+					<th hc-name="b">Max of intensity</th>
 				</tr>
 			</thead>
-			<tbody mv-list="chart20" mv-value="groupBy(entry.entry, readable_datetime(entry.date_time, 'month'))">
+			<tbody mv-list="chart20" mv-value="groupBy(entry.intensity, readable_datetime(entry.date_time, 'day'))">
 				<tr mv-list-item mv-group>
 					<td>[$value]</td>
-					<td>[count($items)]</td>
+					<td>[max($items)]</td>
 				</tr>
 			</tbody>
 		</table>
 	</h-chart>
-	<figcaption>Number of coughs per month</figcaption></figure>
+	<figcaption>Max of intensity per day</figcaption></figure>
 				<figure data-type="chart" class="chart appearance-stretch type-table" style="color: #1a1a2e;min-width: min(300px, 100vw)">
 	
 		<table>
@@ -83,7 +83,7 @@
 					<time property="time" data-type="property" data-prefix=" at " mv-default="[time($startup, 'hours')]" mv-edit-type="inline" mv-editor-type="time" class="type-time"></time>
 					<span property="date_time" data-type="expression" data-show="false" mv-value="datetime(date, time)"></span>
 					<span data-type="spacer" class="appearance-stretch"></span>
-					<span property="timesince" data-type="expression" data-prefix="Last coughs " data-suffix=" ago" mv-value="duration($previous.date_time - date_time)" style="color: #e66d00"></span>
+					<span property="timesince" data-type="expression" data-prefix="Last entry" data-suffix=" ago" mv-value="duration($previous.date_time - date_time)" style="color: #e66d00"></span>
 				</header>
 				<div property="notes" data-type="property" class="appearance-line type-text"></div>
 				<div class="field-row">
