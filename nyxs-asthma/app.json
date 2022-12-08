@@ -170,7 +170,7 @@
 				"prefix": "Mood - ",
 				"type": "options",
 				"allow_multiple": "yes",
-				"options": "--------, Calm, Relaxed, Frustrated, Sleepy, Distressed, Fidgety, Cuddly, Distant, Hiding; Hissy",
+				"options": "--------, Calm, Relaxed, Frustrated, Sleepy, Distressed, Fidgety, Cuddly, Distant, Hiding; Hissy, Looking for comfort, Moody",
 				"appearance": "",
 				"suffix": ""
 			},
@@ -251,7 +251,8 @@
 				"smooth": true,
 				"area": false,
 				"appearance": "stretch",
-				"aggregate": "max"
+				"aggregate": "max",
+				"caption": "Coughing fit intensity"
 			}
 		},
 		{
