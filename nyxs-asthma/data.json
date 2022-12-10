@@ -357,6 +357,20 @@
 			"furquality": [
 				"Soft"
 			]
+		},
+		{
+			"date": "2022-12-10",
+			"time": "17:00",
+			"notes": "Slight cough, tried brushing the floors. Gave preventative half pill just in case.  ",
+			"intensity": "5",
+			"frequency": "Single cough",
+			"halfpill": "💊",
+			"mood": [
+				"Calm"
+			],
+			"furquality": [
+				"Ultrasoft"
+			]
 		}
 	]
 }
