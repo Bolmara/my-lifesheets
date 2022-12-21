@@ -371,6 +371,22 @@
 			"furquality": [
 				"Ultrasoft"
 			]
+		},
+		{
+			"date": "2022-12-21",
+			"time": "02:00",
+			"notes": "really need to get a cleaner in",
+			"intensity": 3,
+			"frequency": "A few coughs hunched",
+			"halfpill": "💊",
+			"mood": [
+				"Calm"
+			],
+			"furquality": [
+				"Soft",
+				"Dry",
+				"Greasy"
+			]
 		}
 	]
 }
