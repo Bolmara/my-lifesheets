@@ -387,6 +387,21 @@
 				"Dry",
 				"Greasy"
 			]
+		},
+		{
+			"date": "2022-12-27",
+			"time": "08:29",
+			"notes": "Crackly breathing afterwards, bad coughs then squeaky ones",
+			"intensity": 6,
+			"frequency": "A few coughs hunched",
+			"halfpill": "💊",
+			"mood": [
+				"Cuddly",
+				"Relaxed"
+			],
+			"furquality": [
+				"Rough"
+			]
 		}
 	]
 }
