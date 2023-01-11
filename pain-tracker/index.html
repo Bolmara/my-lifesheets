@@ -34,7 +34,7 @@
 			<div class="chart-row">
 				<figure data-type="chart" class="chart appearance-stretch type-line" style="min-width: min(300px, 100vw)">
 	
-	<h-chart id="chart16" type="line" x="a">
+	<h-chart id="chart15" type="line" x="a">
 		<table>
 			<thead>
 				<tr>
@@ -42,7 +42,7 @@
 					<th hc-name="b">Average intensity</th>
 				</tr>
 			</thead>
-			<tbody mv-list="chart16" mv-value="groupBy(entry.intensity, readable_datetime(entry.date, 'day'))">
+			<tbody mv-list="chart15" mv-value="groupBy(entry.intensity, readable_datetime(entry.date_time, 'day'))">
 				<tr mv-list-item mv-group>
 					<td>[$value]</td>
 					<td>[average($items)]</td>
@@ -57,7 +57,7 @@
 				<button data-type="action" mv-action="add(entry)">➕ Add entry</button>
 				<span data-type="spacer" class="appearance-stretch"></span>
 				<span data-type="expression" mv-value="'Quick Entry -'" class="bold"></span>
-				<button data-type="action" mv-action="add(group(date: $today, time: $now, intensity: ), entry), add(notes: 'aaaaaaaaaaaaaaaaaa', entry)">Bad (10)</button>
+				<button data-type="action" mv-action="add(intensity: undefined, entry)">Bad (10)</button>
 				<button data-type="action" mv-action="add(entry)">Okay (5)</button>
 				<button data-type="action" mv-action="add(entry)">Fine (1)</button>
 			</div>
@@ -66,7 +66,8 @@
 				<header class="field-row">
 					<span property="weekday" data-type="expression" mv-value="weekday(date, 'shortname')"></span>
 					<time property="date" data-type="property" mv-default="[$today]" mv-edit-type="inline" mv-editor-type="date" class="bold type-date"></time>
-					<time property="time" data-type="property" mv-edit-type="inline" mv-editor-type="time" class="type-time"></time>
+					<time property="time" data-type="property" data-prefix=" at " mv-default="[time($now)]" mv-edit-type="inline" mv-editor-type="time" class="type-time"></time>
+					<span property="date_time" data-type="expression" data-show="false" mv-value="datetime(date, time)"></span>
 				</header>
 				<div property="notes" data-type="property" class="appearance-line type-text"></div>
 				<span data-type="spacer" class="appearance-line"></span>
