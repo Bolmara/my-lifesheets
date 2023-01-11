@@ -141,7 +141,7 @@
 				"actions": [
 					{
 						"type": "add",
-						"target": "last(entry)",
+						"target": "",
 						"filter_junction": "and",
 						"set_pairs": [
 							{
@@ -149,18 +149,18 @@
 								"value": "$today"
 							},
 							{
-								"name": "intensity",
-								"value": "10"
+								"name": "time",
+								"value": "$today"
 							},
 							{
-								"name": "time",
-								"value": "$now"
+								"name": "intensity",
+								"value": ""
 							}
 						],
 						"filter_pairs": []
 					}
 				],
-				"label": "Bad"
+				"label": "Bad (10)"
 			}
 		},
 		{
@@ -176,7 +176,23 @@
 						"filter_pairs": []
 					}
 				],
-				"label": "Manageable"
+				"label": "Okay (5)"
+			}
+		},
+		{
+			"type": "action",
+			"scope": "root",
+			"settings": {
+				"actions": [
+					{
+						"type": "add",
+						"target": "last(entry)",
+						"filter_junction": "and",
+						"set_pairs": [],
+						"filter_pairs": []
+					}
+				],
+				"label": "Fine (1)"
 			}
 		}
 	],
