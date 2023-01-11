@@ -158,6 +158,18 @@
 							}
 						],
 						"filter_pairs": []
+					},
+					{
+						"type": "add",
+						"target": "last(entry)",
+						"filter_junction": "and",
+						"set_pairs": [
+							{
+								"name": "notes",
+								"value": "'aaaaaaaaaaaaaaaaaa'"
+							}
+						],
+						"filter_pairs": []
 					}
 				],
 				"label": "Bad (10)"
