@@ -51,5 +51,19 @@
 		"storage": "",
 		"custom_css": "",
 		"charts_placement": ""
+	},
+	"pain-tracker": {
+		"name": "Pain Tracker",
+		"slug": "pain-tracker",
+		"entry_name": "entry",
+		"entries_name": "entries",
+		"description": "pain tracker",
+		"private": false,
+		"icon": "🦦",
+		"color": "#5f2652",
+		"storage_type": "",
+		"storage": "",
+		"custom_css": "",
+		"charts_placement": ""
 	}
 }
