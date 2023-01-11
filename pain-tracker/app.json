@@ -164,7 +164,7 @@
 						"set_pairs": [
 							{
 								"name": "intensity",
-								"value": "8"
+								"value": "10"
 							}
 						],
 						"filter_pairs": []
@@ -182,7 +182,12 @@
 						"type": "add",
 						"target": "last(entry)",
 						"filter_junction": "and",
-						"set_pairs": [],
+						"set_pairs": [
+							{
+								"name": "intensity",
+								"value": "5"
+							}
+						],
 						"filter_pairs": []
 					}
 				],
@@ -198,7 +203,12 @@
 						"type": "add",
 						"target": "last(entry)",
 						"filter_junction": "and",
-						"set_pairs": [],
+						"set_pairs": [
+							{
+								"name": "intensity",
+								"value": "1"
+							}
+						],
 						"filter_pairs": []
 					}
 				],
