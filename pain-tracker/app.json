@@ -1,0 +1,189 @@
+{
+	"app": {
+		"name": "Pain Tracker",
+		"slug": "pain-tracker",
+		"entry_name": "entry",
+		"entries_name": "entries",
+		"description": "pain tracker",
+		"private": false,
+		"icon": "🦦",
+		"color": "#5f2652",
+		"storage_type": "",
+		"storage": "",
+		"custom_css": "",
+		"charts_placement": ""
+	},
+	"temporal": {
+		"times": "",
+		"ranges": ""
+	},
+	"entry": [
+		{
+			"type": "expression",
+			"scope": "entry",
+			"flags": [
+				"temporal",
+				"deletable"
+			],
+			"settings": {
+				"expression": "weekday(date, 'shortname')"
+			},
+			"name": "weekday"
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"flags": [
+				"temporal"
+			],
+			"settings": {
+				"type": "date",
+				"default": "[$today]",
+				"formatting": [
+					"b"
+				]
+			},
+			"name": "date"
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"settings": {
+				"type": "time"
+			},
+			"name": "time"
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"settings": {
+				"type": "text",
+				"appearance": "line",
+				"multiline": true
+			},
+			"name": "notes"
+		},
+		{
+			"type": "spacer",
+			"scope": "entry",
+			"settings": {
+				"appearance": "line"
+			}
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"settings": {
+				"number_style": "bar",
+				"bar_style": "discrete",
+				"icon": "🔪",
+				"max": 10,
+				"prefix": "Intensity - "
+			},
+			"name": "intensity"
+		},
+		{
+			"type": "spacer",
+			"scope": "entry",
+			"settings": {}
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"settings": {
+				"type": "options",
+				"prefix": "Type of pain - ",
+				"options": "Nothing special, Stabbing, Pins and needles, Etc, Two, Three",
+				"allow_multiple": "yes"
+			},
+			"name": "types"
+		}
+	],
+	"root": [
+		{
+			"type": "action",
+			"scope": "root",
+			"settings": {
+				"visible": "edit",
+				"label": "➕ Add entry",
+				"target_preset": "new",
+				"appearance": "",
+				"actions": [
+					{
+						"type": "add",
+						"target": "add(entry)",
+						"filter_junction": "and",
+						"set_pairs": [],
+						"filter_pairs": []
+					}
+				]
+			}
+		},
+		{
+			"type": "spacer",
+			"scope": "root",
+			"settings": {}
+		},
+		{
+			"type": "expression",
+			"scope": "root",
+			"settings": {
+				"expression": "'Quick Entry -'",
+				"formatting": [
+					"b"
+				]
+			}
+		},
+		{
+			"type": "action",
+			"scope": "root",
+			"settings": {
+				"actions": [
+					{
+						"type": "add",
+						"target": "last(entry)",
+						"filter_junction": "and",
+						"set_pairs": [
+							{
+								"name": "date"
+							},
+							{
+								"name": "intensity"
+							}
+						],
+						"filter_pairs": []
+					}
+				],
+				"label": "Bad"
+			}
+		},
+		{
+			"type": "action",
+			"scope": "root",
+			"settings": {
+				"actions": [
+					{
+						"type": "add",
+						"target": "last(entry)",
+						"filter_junction": "and",
+						"set_pairs": [],
+						"filter_pairs": []
+					}
+				],
+				"label": "Manageable"
+			}
+		}
+	],
+	"charts": [
+		{
+			"type": "chart",
+			"scope": "charts",
+			"settings": {
+				"type": "line",
+				"aggregate": "average",
+				"aggregate_of": "intensity",
+				"group_by": "day"
+			}
+		}
+	]
+}
