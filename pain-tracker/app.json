@@ -14,7 +14,7 @@
 		"charts_placement": ""
 	},
 	"temporal": {
-		"times": "",
+		"times": "yes",
 		"ranges": ""
 	},
 	"entry": [
@@ -48,10 +48,28 @@
 		{
 			"type": "property",
 			"scope": "entry",
+			"flags": [
+				"temporal"
+			],
 			"settings": {
-				"type": "time"
+				"type": "time",
+				"prefix": " at ",
+				"default": "[time($now)]",
+				"format": "[time(time, 'minutes')]"
 			},
 			"name": "time"
+		},
+		{
+			"type": "expression",
+			"scope": "entry",
+			"flags": [
+				"temporal"
+			],
+			"settings": {
+				"visible": "false",
+				"expression": "datetime(date, time)"
+			},
+			"name": "date_time"
 		},
 		{
 			"type": "property",
@@ -145,28 +163,7 @@
 						"filter_junction": "and",
 						"set_pairs": [
 							{
-								"name": "date",
-								"value": "$today"
-							},
-							{
-								"name": "time",
-								"value": "$now"
-							},
-							{
-								"name": "intensity",
-								"value": ""
-							}
-						],
-						"filter_pairs": []
-					},
-					{
-						"type": "add",
-						"target": "last(entry)",
-						"filter_junction": "and",
-						"set_pairs": [
-							{
-								"name": "notes",
-								"value": "'aaaaaaaaaaaaaaaaaa'"
+								"name": "intensity"
 							}
 						],
 						"filter_pairs": []
