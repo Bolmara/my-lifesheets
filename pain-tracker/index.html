@@ -57,8 +57,9 @@
 				<button data-type="action" mv-action="add(entry)">➕ Add entry</button>
 				<span data-type="spacer" class="appearance-stretch"></span>
 				<span data-type="expression" mv-value="'Quick Entry -'" class="bold"></span>
-				<button data-type="action" mv-action="add(group(date: $today, intensity: 10, time: $now), entry)">Bad</button>
-				<button data-type="action" mv-action="add(entry)">Manageable</button>
+				<button data-type="action" mv-action="add(group(date: $today, time: $today, intensity: ), entry)">Bad (10)</button>
+				<button data-type="action" mv-action="add(entry)">Okay (5)</button>
+				<button data-type="action" mv-action="add(entry)">Fine (1)</button>
 			</div>
 		<section mv-list="entry">
 			<article mv-list-item class="entry">
