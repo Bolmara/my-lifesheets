@@ -163,8 +163,8 @@
 						"filter_junction": "and",
 						"set_pairs": [
 							{
-								"name": "date",
-								"value": "$today"
+								"name": "intensity",
+								"value": "8"
 							}
 						],
 						"filter_pairs": []
