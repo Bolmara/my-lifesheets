@@ -39,6 +39,10 @@ button:hover:not(:disabled) {
 		background-color: hsl(var(--gray) 97%);
 	}
 
+button:active:not(:disabled) {
+		background-color: hsl(var(--gray) 89%);
+	}
+
 button:disabled {
 		cursor: not-allowed;
 		opacity: .5;
