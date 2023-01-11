@@ -224,7 +224,9 @@
 				"type": "line",
 				"aggregate": "average",
 				"aggregate_of": "intensity",
-				"group_by": "day"
+				"group_by": "day",
+				"smooth": true,
+				"area": true
 			}
 		}
 	]
