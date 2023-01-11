@@ -1,0 +1,42 @@
+{
+	"entry": [
+		{
+			"date": "2023-01-08",
+			"intensity": 10,
+			"types": [
+				"Nothing special"
+			]
+		},
+		{
+			"date": "2023-01-09",
+			"intensity": 2,
+			"types": [
+				"Nothing special"
+			]
+		},
+		{
+			"date": "2023-01-10",
+			"intensity": 4,
+			"types": [
+				"Nothing special"
+			]
+		},
+		{
+			"date": "2023-01-11",
+			"time": "01:03",
+			"intensity": 9,
+			"types": [
+				"Stabbing",
+				"Etc"
+			]
+		},
+		{
+			"date": "2023-01-11",
+			"time": "06:02",
+			"intensity": 2,
+			"types": [
+				"Nothing special"
+			]
+		}
+	]
+}
