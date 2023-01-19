@@ -406,15 +406,18 @@
 		{
 			"date": "2023-01-09",
 			"time": "15:00",
-			"intensity": "5",
+			"intensity": 10,
 			"frequency": "Coughing fit hunched",
-			"halfpill": "💊",
+			"halfpill": "💊💊",
 			"mood": [
+				"Sleepy",
+				"Distressed",
 				"Looking for comfort"
 			],
 			"furquality": [
-				"Greasy"
-			]
+				"Soft"
+			],
+			"notes": "non stop coughs for the past hour. Gave full pill"
 		}
 	]
 }
