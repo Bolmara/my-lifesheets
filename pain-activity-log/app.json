@@ -1,0 +1,170 @@
+{
+	"app": {
+		"name": "Pain / Activity Log",
+		"slug": "pain-activity-log",
+		"entry_name": "entry",
+		"entries_name": "entries",
+		"description": "pain log",
+		"private": false,
+		"icon": "🦦",
+		"color": "#5f2652",
+		"storage_type": "",
+		"storage": "",
+		"custom_css": "",
+		"charts_placement": ""
+	},
+	"temporal": {
+		"times": "yes",
+		"ranges": ""
+	},
+	"entry": [
+		{
+			"type": "property",
+			"scope": "entry",
+			"settings": {
+				"type": "text",
+				"appearance": "stretch",
+				"multiline": false,
+				"editor_ui": "md",
+				"prefix": ""
+			},
+			"name": "activity"
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"flags": [
+				"temporal"
+			],
+			"settings": {
+				"type": "date",
+				"default": "[$today]",
+				"formatting": [
+					"b"
+				]
+			},
+			"name": "date"
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"flags": [
+				"temporal"
+			],
+			"settings": {
+				"type": "time",
+				"prefix": " at ",
+				"default": "[time($now)]",
+				"format": "[time(time, 'minutes')]"
+			},
+			"name": "time"
+		},
+		{
+			"type": "expression",
+			"scope": "entry",
+			"flags": [
+				"temporal"
+			],
+			"settings": {
+				"visible": "false",
+				"expression": "datetime(date, time)"
+			},
+			"name": "date_time"
+		},
+		{
+			"type": "spacer",
+			"scope": "entry",
+			"settings": {
+				"appearance": "line"
+			}
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"settings": {
+				"number_style": "bar",
+				"bar_style": "discrete",
+				"icon": "🔪",
+				"max": 10,
+				"prefix": "Pain Level - ",
+				"allow_multiple": ""
+			},
+			"name": "PainLevel"
+		},
+		{
+			"type": "spacer",
+			"scope": "entry",
+			"settings": {
+				"appearance": ""
+			}
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"settings": {
+				"prefix": "Fatigue - ",
+				"max": 10,
+				"number_edit": "spinner",
+				"number_style": "bar",
+				"bar_style": "discrete",
+				"icon": "🪑"
+			},
+			"name": "Fatigue"
+		}
+	],
+	"root": [
+		{
+			"type": "action",
+			"scope": "root",
+			"settings": {
+				"visible": "true",
+				"label": "➕ Add entry",
+				"target_preset": "new",
+				"appearance": "",
+				"actions": [
+					{
+						"type": "add",
+						"target": "add(entry)",
+						"filter_junction": "and",
+						"set_pairs": [],
+						"filter_pairs": []
+					}
+				]
+			}
+		},
+		{
+			"type": "spacer",
+			"scope": "root",
+			"settings": {
+				"appearance": "line"
+			}
+		}
+	],
+	"charts": [
+		{
+			"type": "chart",
+			"scope": "charts",
+			"settings": {
+				"type": "line",
+				"group_by": "hourofday",
+				"smooth": true,
+				"area": true,
+				"stats": [
+					{
+						"aggregate": "average",
+						"of": "PainLevel",
+						"filters": [],
+						"filter_junction": "and"
+					},
+					{
+						"aggregate": "average",
+						"of": "Fatigue"
+					}
+				],
+				"appearance": "stretch",
+				"caption": "Average Pain & Fatigue level per hour",
+				"max": 10
+			}
+		}
+	]
+}
