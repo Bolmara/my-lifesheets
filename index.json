@@ -65,5 +65,19 @@
 		"storage": "",
 		"custom_css": "",
 		"charts_placement": ""
+	},
+	"painlog": {
+		"name": "Pain / Activity Log",
+		"slug": "painlog",
+		"entry_name": "entry",
+		"entries_name": "entries",
+		"description": "pain log",
+		"private": true,
+		"icon": "",
+		"color": "#322259",
+		"storage_type": "",
+		"storage": "",
+		"custom_css": "",
+		"charts_placement": ""
 	}
 }
