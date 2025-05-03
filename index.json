@@ -58,7 +58,7 @@
 		"entry_name": "entry",
 		"entries_name": "entries",
 		"description": "pain log",
-		"private": true,
+		"private": false,
 		"icon": "🦦",
 		"color": "#5f2652",
 		"storage_type": "",
