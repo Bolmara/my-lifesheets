@@ -13,6 +13,13 @@
 			"time": "12:03",
 			"PainLevel": 7,
 			"Fatigue": 8
+		},
+		{
+			"activity": "Woke up from nap",
+			"date": "2025-05-03",
+			"time": "20:05",
+			"PainLevel": 6,
+			"Fatigue": 4
 		}
 	]
 }
