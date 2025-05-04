@@ -43,10 +43,15 @@
 				</tr>
 			</thead>
 			<tbody mv-list-item mv-group>
-				<tr mv-if="count($items)">
+				<tr mv-if="count($items.pain)">
 										<td>[$value]</td>
-										<td>number of entries</td>
-										<td>[count($items)]</td>
+										<td>average pain</td>
+										<td>[average($items.pain)]</td>
+									</tr>
+<tr mv-if="count($items.fatigue)">
+										<td>[$value]</td>
+										<td>average fatigue</td>
+										<td>[average($items.fatigue)]</td>
 									</tr>
 			</tbody>
 		</table>
