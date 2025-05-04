@@ -131,7 +131,7 @@
 	"charts": [
 		{
 			"type": "chart",
-			"scope": "root",
+			"scope": "charts",
 			"settings": {
 				"type": "line",
 				"group_by": "day",
