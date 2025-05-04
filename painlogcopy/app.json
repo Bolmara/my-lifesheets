@@ -1,0 +1,144 @@
+{
+	"app": {
+		"name": "Pain / Activity Log",
+		"slug": "painlogcopy",
+		"entry_name": "entry",
+		"entries_name": "entries",
+		"description": "pain log",
+		"private": false,
+		"icon": "",
+		"color": "#322259",
+		"storage_type": "",
+		"storage": "",
+		"custom_css": "",
+		"charts_placement": ""
+	},
+	"temporal": {
+		"times": "yes",
+		"ranges": ""
+	},
+	"entry": [
+		{
+			"type": "property",
+			"scope": "entry",
+			"settings": {
+				"type": "text",
+				"appearance": "stretch",
+				"multiline": true,
+				"prefix": ""
+			},
+			"name": "activity"
+		},
+		{
+			"type": "expression",
+			"scope": "entry",
+			"flags": [
+				"temporal"
+			],
+			"settings": {
+				"visible": "false",
+				"expression": "datetime(date, time)"
+			},
+			"name": "date_time"
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"flags": [
+				"temporal"
+			],
+			"settings": {
+				"type": "date",
+				"default": "[$today]",
+				"formatting": [
+					"b"
+				]
+			},
+			"name": "date"
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"flags": [
+				"temporal"
+			],
+			"settings": {
+				"prefix": " at ",
+				"type": "time",
+				"default": "[time($startup, 'hours')]",
+				"format": "[time(time, 'minutes')]"
+			},
+			"name": "time"
+		},
+		{
+			"type": "spacer",
+			"scope": "entry",
+			"settings": {
+				"appearance": "line"
+			}
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"settings": {
+				"prefix": "Pain Level - ",
+				"number_style": "bar",
+				"max": 10,
+				"bar_style": "discrete",
+				"icon": "🔪"
+			},
+			"name": "pain"
+		},
+		{
+			"type": "spacer",
+			"scope": "entry",
+			"settings": {}
+		},
+		{
+			"type": "property",
+			"scope": "entry",
+			"settings": {
+				"prefix": "Fatigue",
+				"number_style": "bar",
+				"bar_style": "discrete",
+				"max": 10,
+				"icon": "🪑"
+			},
+			"name": "fatigue"
+		}
+	],
+	"root": [
+		{
+			"type": "action",
+			"scope": "root",
+			"settings": {
+				"visible": "edit",
+				"label": "➕ Add entry",
+				"target_preset": "new",
+				"appearance": "",
+				"actions": [
+					{
+						"type": "add",
+						"target": "add(entry)",
+						"filter_junction": "and",
+						"set_pairs": [],
+						"filter_pairs": []
+					}
+				]
+			}
+		}
+	],
+	"charts": [
+		{
+			"type": "chart",
+			"scope": "root",
+			"settings": {
+				"type": "line",
+				"group_by": "day",
+				"caption": "Average pain, fatigue per day",
+				"max": 10,
+				"smooth": true
+			}
+		}
+	]
+}
